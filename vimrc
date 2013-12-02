@@ -34,7 +34,7 @@ set incsearch
 
 filetype plugin indent on
 
-set pastetoggle=<F2>
+" set pastetoggle=<F2>
 
 cmap w!! w !sudo tee % >/dev/null
 
@@ -51,5 +51,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-let g:miniBufExplBuffersNeeded = 0
+let g:miniBufExplBuffersNeeded=1
 let mapleader=","
+
+nnoremap <C-n> :NERDTreeToggle<CR>
+
+set visualbell t_vb=
