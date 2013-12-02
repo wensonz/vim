@@ -25,7 +25,7 @@ set smartcase
 set hlsearch
 
 set title
-set visualbell
+set visualbell t_vb=
 set noerrorbells
 
 set nobackup
@@ -57,3 +57,4 @@ let mapleader=","
 nnoremap <C-n> :NERDTreeToggle<CR>
 
 set visualbell t_vb=
+
