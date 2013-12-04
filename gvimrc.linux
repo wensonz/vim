@@ -1,4 +1,4 @@
 set guifont=Ubuntu\ Mono\ 12
-color "Tomorrow"
+colorscheme Tomorrow
 set guioptions-=T
 set vb t_vb=
