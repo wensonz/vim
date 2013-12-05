@@ -44,7 +44,7 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 
 nnoremap H :bp<CR>
 nnoremap L :bn<CR>
-nnoremap I :bw<CR>
+nnoremap K :bw<CR>
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
