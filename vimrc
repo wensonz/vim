@@ -3,6 +3,9 @@ call pathogen#helptags()
 
 syntax on
 
+" enable 256 colors
+set t_Co=256
+
 set hidden
 set nowrap
 
